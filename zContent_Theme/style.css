@@ -1,0 +1,38 @@
+@charset "iso-8859-1";
+body {background-color:#000000; font-family: Verdana; color: #FFFFFF; font-size: 12px}
+a { font-family: Verdana; font-size: 12px; text-decoration: none; color: #FFFFFF; font-style: normal; font-weight : bold; }
+a:hover { text-decoration: underline overline; font-family: Verdana; font-size: 12px; color: #00CC00; font-style: normal; font-weight : bold;}
+a.mma { font-family: Verdana; font-size: 12px; text-decoration: none; color: #000000; font-style: normal; font-weight : bold; }
+a.mma:hover { text-decoration: underline overline; font-family: Verdana; font-size: 12px; color: #333333; font-style: normal; font-weight : bold;}
+td {font-family: Verdana; color: #FFFFFF; font-size: 12px;}
+input { background-color : #111111; color : #FFFFFF; font-family : Verdana; font-size : 12px; font-weight : normal; border-color : #222222; border-top-width : 1px; border-right-width : 1px; border-bottom-width : 1px; border-left-width : 1px;text-indent : 2px; }
+textarea {color: #FFFFFF; font-family: Verdana; font-size: 12px;background-color : #111111; font-weight : bold; border-color : #222222; border-top-width : 1px; border-right-width : 1px; border-bottom-width : 1px; border-left-width : 1px; text-indent : 2px;}
+select {font-family: Verdana; font-size: 12px;font-weight : bold; background-color:#CCCCCC; } 
+img { border: 0;}
+h1 {font-size: 20px;}
+h2 {font-size: 18px;}
+h3 {font-size: 16px;}
+h4 {font-size: 14px;}
+ul { margin: 2px; padding: 2px; list-style: decimal inside; text-align: left;}
+li { margin-left: 2px; list-style: disc inside; color:FFFFFF;}
+div#content { margin: 2px; padding: 2px; text-align: left; font-family: Verdana; font-size: 12px; color: #FFFFFF;}
+div#content td {margin: 2px; padding: 2px; font-family: Verdana; font-size: 12px; color: #FFFFFF;}
+.odd { background-color: #111111; margin: 2px; padding: 2px; font-family: Verdana; font-size: 12px;font-weight : bold; color: #FFFFFF;}
+.outer { background-color: #000000; margin: 2px; padding: 2px; }
+.even { background-color: #333333; margin: 2px; padding: 2px; font-family: Verdana; font-size: 12px;font-weight : bold; color: #FFFFFF;}
+th { background-color: #333333; text-align: left; margin: 2px; padding: 2px; font-family: Verdana; font-size: 12px;font-weight : bold; color: #FFFFFF;}
+.head { background-color: #111111; margin: 2px; padding: 2px; font-family: Verdana; font-size: 12px;font-weight : bold; color: #FFFFFF;}
+.foot { background-color: #111111; margin: 2px; padding: 2px; font-family: Verdana; font-size: 12px;font-weight : bold; color: #FFFFFF;}
+.itemHead {background-color: #333333; color: #FFFFFF; padding: 2px; font-weight: bold; text-align: left;}
+.itemInfo {text-align: right; padding: 0px; margin: 0px; background-color: #111111; color: #FFFFFF;}
+.itemPoster {font-size: 90%; font-style:italic; color: #FFFFFF;}
+.itemPostDate {font-size: 90%; font-style:italic; color: #FFFFFF;}
+.itemStats {font-size: 90%; font-style:italic; color: #FFFFFF;}
+.itemBody { padding: 2px; margin: 2px; text-align: left}
+.itemText {font-family: Verdana; font-size: 12px;font-weight : bold; color: #FFFFFF; margin-top: 5px; margin-bottom: 5px; line-height: 1.5em;}
+.itemText:first-letter {font-size: 133%; font-weight: bold;}
+.itemFoot {text-align: right; padding: 0px; margin: 0px; background-color: #333333; color: #FFFFFF;}
+.itemAdminLink {font-size: 90%;}
+.itemPermaLink {font-size: 90%;}
+.blockTitle {background-color: #FFFFFF; color: #000000; padding: 0px; font-weight: bold}
+.blockContent {background-color: #000000; font-family: Verdana; color: #FFFFFF; font-size: 12px; padding: 2px; margin: 2px;}

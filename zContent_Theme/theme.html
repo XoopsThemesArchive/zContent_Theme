@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<{$xoops_langcode}>" lang="<{$xoops_langcode}>">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=<{$xoops_charset}>" />
+<meta http-equiv="content-language" content="<{$xoops_langcode}>" />
+<meta name="robots" content="<{$xoops_meta_robots}>" />
+<meta name="keywords" content="<{$xoops_meta_keywords}>" />
+<meta name="description" content="<{$xoops_meta_description}>" />
+<meta name="rating" content="<{$xoops_meta_rating}>" />
+<meta name="author" content="<{$xoops_meta_author}>" />
+<meta name="copyright" content="<{$xoops_meta_copyright}>" />
+<meta name="generator" content="XOOPS" />
+<title><{$xoops_sitename}> - <{$xoops_pagetitle}></title>
+<link href="<{$xoops_url}>/favicon.ico" rel="SHORTCUT ICON" />
+<link rel="stylesheet" type="text/css" media="all" href="<{$xoops_url}>/xoops.css" />
+<link rel="stylesheet" type="text/css" media="all" href="<{$xoops_themecss}>" />
+<script type="text/javascript">
+<!--
+<{$xoops_js}>
+//-->
+</script>
+</head>
+<body bgcolor="#000000" leftmargin="5" topmargin="5" rightmargin="5" bottommargin="5">
+<table border="0" cellpadding="1" cellspacing="1" bgcolor="#CCCCCC" width="100%">
+<tr><td bgcolor="#FFFFFF" valign="top">
+<table border="0" cellpadding="0" cellspacing="1" width="100%" height="20" bgcolor="#000000">
+<tr><td background="<{$xoops_imageurl}>bg-tab-menu.gif"></td></tr></table>		
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="2">
+<tr><td background="<{$xoops_imageurl}>hr.gif"></td></tr></table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100" background="<{$xoops_imageurl}>bg-header.gif" bgcolor="#000000"><td width="400" valign="middle"><a href="<{$xoops_url}>"><img src="<{$xoops_imageurl}>logo.gif" border="0" width="148" height="80"></a></td>
+<td align="right" height="100"><table border="0" cellpadding="1" cellspacing="1" bgcolor="#CCCCCC" width="468" height="60">
+<tr><td bgcolor="#FFFFFF" valign="top"><table border="0" cellpadding="0" cellspacing="1" width="100%" height="100%" bgcolor="#000000">
+<tr><td valign="top" bgcolor="#333333" align="center"><{$xoops_banner}></td></tr></table></td></tr></table>
+</td><td width="10"></td></tr></table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="2">
+<tr><td background="<{$xoops_imageurl}>hr.gif"></td></tr></table>
+<table border="0" cellpadding="0" cellspacing="1" width="100%" height="20" bgcolor="#000000">
+<tr><td background="<{$xoops_imageurl}>bg-tab-menu.gif"></td></tr></table>		
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="2">
+<tr><td background="<{$xoops_imageurl}>hr.gif"></td></tr></table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%" bgcolor="#000000">
+<tr><td valign="top" align="center" width="100%">
+<table border="0" cellpadding="5" cellspacing="5">
+<tr><td width="150" height="100%" valign="top">
+<!-- Start left blocks loop -->
+<{foreach item=block from=$xoops_lblocks}>
+<table border="0" cellpadding="1" cellspacing="1" bgcolor="#CCCCCC" width="150">
+<tr><td bgcolor="#FFFFFF" valign="top">
+<table border="0" cellpadding="0" cellspacing="1" width="100%" bgcolor="#000000">
+<tr><td valign="top" bgcolor="#333333">
+<table border="0" cellpadding="0" cellspacing="1" width="100%" height="20" bgcolor="#000000">
+<tr><td background="<{$xoops_imageurl}>bg-tab-menu.gif" class="blockTitle">&nbsp;<{$block.title}></td></tr></table>		
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="2" bgcolor="#000000">
+<tr><td background="<{$xoops_imageurl}>hr.gif"></td></tr></table>
+<table cellspacing="0" cellpadding="0" width="100%" height="100%"><tr>
+<td class="blockContent"><{$block.content}></td></tr></table>
+</td></tr></table>		
+</td></tr></table>
+<br>
+<{/foreach}>
+<!-- Fim do "loop" dos blocos da esquerda -->
+</td><td width="100%" height="100%" valign="top">
+<!-- Display center blocks if any -->
+<{if $xoops_showcblock == 1}>
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="150">
+<tr><td width="49%" valign="top">
+<!-- Start center-left blocks loop -->
+<{foreach item=block from=$xoops_clblocks}>
+<table border="0" cellpadding="1" cellspacing="1" bgcolor="#CCCCCC" width="100%" height="150">
+<tr><td bgcolor="#FFFFFF" valign="top">
+<table border="0" cellpadding="0" cellspacing="1" width="100%" height="150" bgcolor="#000000">
+<tr><td valign="top" bgcolor="#333333">		
+<table border="0" cellpadding="0" cellspacing="1" width="100%" height="20" bgcolor="#000000">
+<tr><td background="<{$xoops_imageurl}>bg-tab-menu.gif" class="blockTitle">&nbsp;<{$block.title}>
+</td></tr></table>		
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="2" bgcolor="#000000">
+<tr><td background="<{$xoops_imageurl}>hr.gif"></td></tr></table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%"><tr><td valign="top" class="blockContent">
+<{$block.content}>
+</td></tr></table></td></tr></table></td></tr></table>
+<br>
+<{/foreach}>
+<!-- End center-left blocks loop -->
+</td><td width="1%"></td><td width="48%" valign="top">
+<!-- Start center-right blocks loop -->
+<{foreach item=block from=$xoops_crblocks}>
+<table border="0" cellpadding="1" cellspacing="1" bgcolor="#CCCCCC" width="100%" height="150">
+<tr><td bgcolor="#FFFFFF" valign="top">
+<table border="0" cellpadding="0" cellspacing="1" width="100%" height="150" bgcolor="#000000">
+<tr><td valign="top" bgcolor="#333333">		
+<table border="0" cellpadding="0" cellspacing="1" width="100%" height="20" bgcolor="#000000">
+<tr><td background="<{$xoops_imageurl}>bg-tab-menu.gif" class="blockTitle">&nbsp;<{$block.title}>
+</td></tr></table>		
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="2" bgcolor="#000000">
+<tr><td background="<{$xoops_imageurl}>hr.gif"></td></tr></table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%"><tr><td valign="top" class="blockContent">
+<{$block.content}>
+</td></tr></table></td></tr></table></td></tr></table>
+<br>
+<{/foreach}>
+<!-- End center-right blocks loop -->
+</td></tr></table>
+<!-- Start center-center blocks loop -->
+<{foreach item=block from=$xoops_ccblocks}>
+<table border="0" cellpadding="1" cellspacing="1" bgcolor="#CCCCCC" width="100%" height="150">
+<tr><td bgcolor="#FFFFFF" valign="top">
+<table border="0" cellpadding="0" cellspacing="1" width="100%" height="150" bgcolor="#000000">
+<tr><td valign="top" bgcolor="#333333">		
+<table border="0" cellpadding="0" cellspacing="1" width="100%" height="20" bgcolor="#000000">
+<tr><td background="<{$xoops_imageurl}>bg-tab-menu.gif" class="blockTitle">&nbsp;<{$block.title}>
+</td></tr></table>		
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="2" bgcolor="#000000">
+<tr><td background="<{$xoops_imageurl}>hr.gif"></td></tr></table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%"><tr><td valign="top" class="blockContent">
+<{$block.content}>
+</td></tr></table></td></tr></table></td></tr></table>
+<br>
+<{/foreach}>
+<!-- End center-center blocks loop -->
+<{/if}>
+<!-- End display center blocks -->
+<!-- Start content -->
+<table border="0" cellpadding="1" cellspacing="1" bgcolor="#CCCCCC" width="100%">
+<tr><td bgcolor="#FFFFFF" valign="top" width="100%">
+<table border="0" cellpadding="0" cellspacing="1" width="100%" bgcolor="#000000">
+<tr><td valign="top" bgcolor="#333333" width="100%">		
+<table border="0" cellpadding="0" cellspacing="1" width="100%" height="20" bgcolor="#000000">
+<tr><td background="<{$xoops_imageurl}>bg-tab-menu.gif" class="blockTitle">&nbsp;<a class="mma" href="<{$xoops_url}>"><{$xoops_sitename}></a> / <{$xoops_pagetitle}>
+</td></tr></table>		
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="2" bgcolor="#000000">
+<tr><td background="<{$xoops_imageurl}>hr.gif"></td></tr></table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="100%">
+<tr><td valign="top" class="blockContent" width="100%"><div id="content"><{$xoops_contents}></div></td></tr></table>
+</td></tr></table></td></tr></table>
+<br>
+<!-- End content -->
+</td>
+<{if $xoops_showrblock == 1}>	
+<!-- Início dos blocos da direita -->	
+<td width="150" height="100%" valign="top">
+<{foreach item=block from=$xoops_rblocks}>
+<table border="0" cellpadding="1" cellspacing="1" bgcolor="#CCCCCC" width="150">
+<tr><td bgcolor="#FFFFFF" valign="top">
+<table border="0" cellpadding="0" cellspacing="1" width="100%" bgcolor="#000000">
+<tr><td valign="top" bgcolor="#333333">
+<table border="0" cellpadding="0" cellspacing="1" width="100%" height="20" bgcolor="#000000">
+<tr><td background="<{$xoops_imageurl}>bg-tab-menu.gif" class="blockTitle">&nbsp;<{$block.title}></td></tr></table>		
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="2" bgcolor="#000000">
+<tr><td background="<{$xoops_imageurl}>hr.gif"></td></tr></table>
+<table cellspacing="0" cellpadding="0" width="100%" height="100%"><tr>
+<td class="blockContent"><{$block.content}></td></tr></table>
+</td></tr></table>		
+</td></tr></table>
+<br>
+<{/foreach}>
+</td></tr></table>
+<{/if}>
+<!-- End right blocks loop -->		
+</td></tr></table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%" height="2">
+<tr><td background="<{$xoops_imageurl}>hr.gif"></td></tr></table>
+<table border="0" cellpadding="0" cellspacing="1" width="100%" height="20" bgcolor="#000000">
+<tr><td background="<{$xoops_imageurl}>bg-tab-menu.gif" align="center"><font face="Trebuchet MS" size="2" color="#000000">
+<a class="mma" href="<{$xoops_url}>"><{$xoops_sitename}></a> - Powered by <a class="mma" href="http://br.xoops.org" target="_blank">XOOPS 2.0</a> © 2001-2003 - Design Powered by <a href="http://www.xoops-themes.com" target="_blank" class="mma" >MadSnake</a> © 2003 - All Right Reserved</font>
+</td></tr></table></td></tr></table>
+</body>
+</html>
